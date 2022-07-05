@@ -21,11 +21,11 @@
     "pomm-project/model-manager": "~2.0",
     "pomm-project/cli": "~2.0",
     "pomm-project/pomm-symfony-bridge": "~2.5|~3.0",
-    "symfony/framework-bundle": "^3.4|^4.3|^5.0"
+    "symfony/framework-bundle": "^3.4|^4.3|^5.0|^6.0"
   },
   "require-dev": {
-    "symfony/console": "^3.4|^4.3|^5.0",
-    "squizlabs/php_codesniffer": "~2.7"
+    "symfony/console": "^3.4|^4.3|^5.0|^6.0",
+    "squizlabs/php_codesniffer": "~2.7|^3.0"
   },
   "suggest": {
       "symfony/web-profiler-bundle": "Display queries log",
@@ -36,10 +36,6 @@
       "PommProject\\PommBundle\\": "sources/lib/"
     }
   },
-  "extra": {
-      "branch-alias": {
-          "dev-master": "2.0-dev"
-      }
-  }
+  "minimum-stability": "alpha"
 }
 
